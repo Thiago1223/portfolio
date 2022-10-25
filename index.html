@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/section-title.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="stylesheet" href="./css/back.css">
     <title>Portfolio - Thiago Freitas</title>
 </head>
 <body>
@@ -38,6 +42,9 @@
         </nav>
     </header>
     <main>
+        <a href="#home" class="back" title="Voltar">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
         <section class="home" id="home">
             <img src="./img/foto.png" alt="foto" class="home__photo">
             <div>
@@ -83,9 +90,95 @@
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://thiago1223.github.io/projeto-valorant/" target="blank" class="card">
+                    <img src="./img/valorant.png" alt="Valorant">
+                </a>
+                <a href="https://thiago1223.github.io/projeto-apex/" target="blank" class="card">
+                    <img src="./img/apex.png" alt="Apex Legends">
+                </a>
+                <a href="https://thiago1223.github.io/Projeto-motocicleta/" target="blank" class="card">
+                    <img src="./img/e-bike.png" alt="E-Bike">
+                </a>
+                <a href="https://thiago1223.github.io/headphone-purple/" target="blank" class="card">
+                    <img src="./img/phone.png" alt="Razer Kraken BT">
+                </a>
+                <a href="https://thiago1223.github.io/landing-page-pikachu/" target="blank" class="card">
+                    <img src="./img/pikachu.png" alt="Pikachu">
+                </a>
+                <a href="https://thiago1223.github.io/Projeto-Personagem/" target="blank" class="card">
+                    <img src="./img/lol.png" alt="League of Legends">
+                </a>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 4774-4700</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>tifreitas10@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(11) 93088-7360</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li>
+                    <a href="https://instagram.com/thiago_freitas50" class="social-item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Thiago1223" class="social-item">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/thiago-freitas-89578b24a/" class="social-item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100014517697036" class="social-item">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer>footer</footer>
+    <footer>Todos os direitos reservados 2022 | Desenvolvido por Thiago Freitas</footer>
 </body>
 </html>

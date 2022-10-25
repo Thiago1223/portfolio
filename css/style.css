@@ -33,18 +33,13 @@ main{
 section{
     height: 100vh;
 }
-.projetos{
-    background-color: lightpink;
-    width: 100%;
-}
-.contato{
-    background-color: lightseagreen;
-    width: 100%;
-}
 footer{
     place-self: end start;
     grid-area: content;
     height: 100px;
     width: 100%;
-    background-color: #0008;
+    display: grid;
+    place-content: center;
+    font-size: .75rem;
+    border-top: 2px solid #fff;
 }

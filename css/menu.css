@@ -10,3 +10,14 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+/* TABLET */
+@media (max-width:960px){
+    .menu{
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+
+}
