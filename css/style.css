@@ -42,3 +42,10 @@ footer{
     font-size: .75rem;
     border-top: 2px solid #fff;
 }
+
+/* TABLET */
+@media (max-width:960px){
+    .projetos{
+        height: 260vh;
+    }
+}

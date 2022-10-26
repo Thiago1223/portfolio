@@ -61,5 +61,20 @@
     .contatos{
         max-width: 672px;
         width: 100%;
+        display: grid;
+        grid-template-areas: 
+            "title title"
+            "contato link"
+            "social social";
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
+    .contato-container{
+        grid-area: contato;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+
 }
