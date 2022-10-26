@@ -10,10 +10,20 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+
 /* TABLET */
 @media (max-width:960px){
+    header{
+        max-width: 672px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
     .menu{
         display: none;
+    }
+    .menu__bars{
+        font-size: 1.5rem;
     }
 }
 

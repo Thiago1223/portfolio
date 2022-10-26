@@ -39,6 +39,11 @@
     background-color: var(--icon-color);
     display: grid;
     place-content: center;
+    transition: color .5s;
+}
+.social-item:hover{
+    color: var(--primary-color);
+    box-shadow: inset 0px 0px 5px var(--primary-color);
 }
 .link-container{
     grid-area: link;
@@ -49,4 +54,12 @@
 }
 .link-title{
     font-size: 1.5rem;
+}
+
+/* TABLET */
+@media (max-width:960px){
+    .contatos{
+        max-width: 672px;
+        width: 100%;
+    }
 }
