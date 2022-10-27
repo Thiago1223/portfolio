@@ -40,5 +40,13 @@
 
 /* MOBILE */
 @media (max-width:640px){
-
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__text{
+        display: flex;
+        justify-content: center;
+    }
 }

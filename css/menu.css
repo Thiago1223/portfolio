@@ -14,7 +14,7 @@
 /* TABLET */
 @media (max-width:960px){
     header{
-        max-width: 672px;
+        max-width: 868px;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -29,5 +29,8 @@
 
 /* MOBILE */
 @media (max-width:640px){
-
+    header{
+        max-width: 592px;
+        width: 100%;
+    }
 }
