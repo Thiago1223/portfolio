@@ -59,7 +59,7 @@
 /* TABLET */
 @media (max-width: 960px){
     .contato{
-        max-width: 672px;
+        max-width: 868px;
         width: 100%;
         height: 750px;
         grid-template-areas: 

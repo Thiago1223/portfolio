@@ -49,4 +49,11 @@
         display: flex;
         justify-content: center;
     }
+    .home__name{
+        font-size: 4rem;
+        color: var(--primary-color);
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -36,10 +36,11 @@
 /* TABLET */
 @media (max-width:960px){
     .projetos{
-        max-width: 672px;
+        max-width: 868px;
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .card-container{
         display: flex;
