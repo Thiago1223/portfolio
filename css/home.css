@@ -17,9 +17,6 @@
     color: var(--primary-color);
     font-weight: 700;
 }
-.menu__bars{
-    display: none;
-}
 
 /* TABLET */
 @media (max-width:960px){
@@ -33,8 +30,12 @@
         display: flex;
         justify-content: center;
     }
-    .menu__bars{
+    .home__name{
+        font-size: 4rem;
+        color: var(--primary-color);
+        font-weight: 700;
         display: flex;
+        justify-content: center;
     }
 }
 
