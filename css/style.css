@@ -2,6 +2,10 @@
     --primary-color: #FEDC00;
     --icon-color: #252525;
 }
+html, body{
+    position: relative;
+    overflow-x: hidden;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -44,7 +48,7 @@ footer{
 }
 
 /* TABLET */
-@media (max-width:960px){
+@media (max-width:960px){   
     .projetos{
         height: 260vh;
     }
