@@ -14,3 +14,17 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+/* TABLET */
+@media (max-width:960px){
+    .logo{
+        padding-left: 32px;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .logo{
+        padding-left: 16px;
+    }
+}

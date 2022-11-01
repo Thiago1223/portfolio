@@ -50,16 +50,13 @@ footer{
 /* TABLET */
 @media (max-width:960px){   
     .projetos{
-        height: 260vh;
+        height: auto;
     }
 }
 
 /* MOBILE */
 @media (max-width:640px){
     .sobre-mim{
-        height: 160vh;
-    }
-    .projetos{
-        height: 300vh;
+        height: auto;
     }
 }
