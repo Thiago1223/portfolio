@@ -60,7 +60,7 @@
 @media (max-width: 960px){
     .contato{
         max-width: 768px;
-        height: 750px;
+        height: auto;
         grid-template-areas: 
             "title title title"
             "contato . link"

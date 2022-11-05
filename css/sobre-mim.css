@@ -82,14 +82,14 @@
 @media (max-width:960px){
     .sobre-mim{
         max-width: 855px;
-        padding-left: 32px;
+        padding: 0 32px;
     }
 }
 
 /* MOBILE */
 @media (max-width:640px){
     .sobre-mim{
-        padding-left: 16px;
+        padding:0 16px;
     }
     .skills__icons{
         display: flex;
